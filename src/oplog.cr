@@ -33,7 +33,7 @@ module Oplog
     end
   end
 
-  def self.setup(verbosity : Int32 = 4)
+  def self.setup(verbosity : Int = 4)
     Colorize.on_tty_only!
     verbosity = [0, verbosity].max
     verbosity = [6, verbosity].min
