@@ -1,0 +1,9 @@
+name: oplog
+version: 0.1.0
+
+authors:
+  - Roberto Alsina <roberto.alsina@gmail.com>
+
+crystal: '>= 1.12.2'
+
+license: MIT
