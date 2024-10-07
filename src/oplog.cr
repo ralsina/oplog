@@ -1,3 +1,6 @@
+require "log"
+require "colorize"
+
 # TODO: Write documentation for `Oplog::Cr`
 module Oplog
   VERSION = "0.1.0"
