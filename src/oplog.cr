@@ -14,8 +14,10 @@ module Oplog
     def write(entry : Log::Entry)
       if entry.severity >= Log::Severity::Error
         @stderr.write entry
+        STDERR.flush
       else
         @stdout.write entry
+        STDOUT.flush
       end
     end
   end
